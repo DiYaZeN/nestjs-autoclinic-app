@@ -10,7 +10,7 @@ import { Connection } from 'typeorm/connection/Connection';
       port: 3306,
       username: 'root',
       password: 'MINult$123',
-      database: 'autoclinic_car _rental',
+      database: 'autoclinic_car_rental',
       entities: [],
       synchronize: true,
       extra: {
