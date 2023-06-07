@@ -13,9 +13,8 @@ import { ComponentsModule } from './components/components.module';
     DatabaseModule,
     GraphQLModule.forRoot<ApolloDriverConfig>({
       driver: ApolloDriver,
-      playground: (process.env.NODE_ENV === 'development' && true) || false,
+      playground: true,
       autoSchemaFile: true,
-      // debug: (process.env.NODE_ENV === 'development' && true) || false,
     }),
     ComponentsModule,
   ],
